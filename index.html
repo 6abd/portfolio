@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amari A. - Portfolio</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="description" content="Hi! I'm Amari" />
+
+    <!-- ICO favicon as a fallback for browsers that don't support SVG favicons (Safari) -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Amari's Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Hi! I'm Amari" />
+    <meta property="og:color" content="#da755b" />
+  </head>
+  <body>
+    <div class="flex items-center space-between w-full flex-col font-medium">
+      <main
+        class="mx-auto w-full px-12 md:px-0 md:w-2/3 lg:w-1/2 2xl:w-1/3 h-full relative gap-16 py-18 flex flex-col"
+      >
+        <nav class="flex justify-between">
+          <a id="logo" href="/">
+            <h2 class="text-2xl font-semibold leading-none">Amari Abdalla</h2>
+            
+          </a>
+          <div id="links" class="gap-5 flex items-center">
+            <a href="https://github.com/6abd"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="mailto:digitalizedsnake@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+        </nav>
+        <section id="content">
+          <h1 class="text-xl font-bold flex gap-2">
+            <div>Hey!</div>
+            <div>👋</div>
+          </h1>
+          <p class="text-base opacity-50">
+            My name's Amari. I'm a high school student.
+          </p>
+        </section>
+        <section id="projects" class="md:ml-6 flex flex-col gap-10">
+          <a class="flex gap-2 flex-col" href="https://github.com/6abd/horus">
+            <h3 class="font-bold text-xl">horus</h3>
+            <p class="opacity-50 text-sm max-w-81">
+              An OSINT / Digital Forensics tool built in Python. All-in-one encompassing tool for investigations assistance, from API leveraging to compiling data too.
+            </p>
+            <div class="flex text-sm font-bold items-center gap-2">
+              Learn More
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+          <a class="flex gap-2 flex-col" href="https://apps.apple.com/us/app/doceo-learn-latin/id6746970333">
+            <h3 class="font-bold text-xl">Doceo: Learn Latin</h3>
+            <p class="opacity-50 text-sm max-w-81">
+              Doceo is a clean, focused app designed to support Latin learners with the tools they need to build vocabulary, understand grammar, and practice. 
+            </p>
+            <div class="flex text-sm font-bold items-center gap-2">
+              Learn More
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+          <a class="flex gap-2 flex-col" href="https://barca-analysis.streamlit.app">
+            <h3 class="font-bold text-xl">barca-analysis</h3>
+            <p class="opacity-50 text-sm max-w-81">
+              Built a full-stack data visualization platform using Python, Streamlit, and StatsBomb API to analyze FC Barcelona’s 2015/16 season.
+            </p>
+            <div class="flex text-sm font-bold items-center gap-2">
+              Learn More
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+          <div class="flex text-sm items-center gap-4">
+            <div class="hidden md:block whitespace-nowrap opacity-70">
+              Blog Posts
+            </div>
+            <div class="line-holder">
+              <div class="smallLine smallLine1"></div>
+              <div class="smallLine smallLine2"></div>
+            </div>
+          </div>
+          <a class="flex gap-2 flex-col" href="#?blog=01" blog="01">
+            <h3 class="font-bold text-xl">
+              How my open source tool got 100 stars in 4 days
+            </h3>
+            <p class="opacity-50 text-sm max-w-81">
+              What I learned about traction and marketing in open source with no prior experience
+            </p>
+            <div class="flex text-sm font-bold items-center gap-2">
+              Read Post
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+          <a class="flex gap-2 flex-col" href="#?blog=02" blog="02">
+            <h3 class="font-bold text-xl">
+              Tracking Snoop Dogg's $4M Crypto Wallet
+            </h3>
+            <p class="opacity-50 text-sm max-w-81">
+              A fun demo on Horus's crypto wallet tracking feature
+            </p>
+            <div class="flex text-sm font-bold items-center gap-2">
+              Read Post
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+          <a class="flex gap-2 flex-col" href="#?blog=03" blog="03">
+            <h3 class="font-bold text-xl">
+              Tracking Celebrity Flights in Python
+            </h3>
+            <p class="opacity-50 text-sm max-w-81">
+              How I implemented flight tracking in my OSINT tool 
+            </p>
+            <div class="flex text-sm font-bold items-center gap-2">
+              Read Post
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </section>
+      </main>
+      <section
+        id="blog-space"
+        class="hidden mx-auto w-full px-12 md:px-0 md:w-2/3 lg:w-1/2 2xl:w-1/3 h-full relative pt-4 pb-16 flex flex-col"
+      >
+        <div class="w-full flex justify-between" id="blog-nav">
+          <a id="back" href="javascript:void(0)">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span> Back </span>
+          </a>
+        </div>
+        <div id="blog-content"></div>
+      </section>
+    </div>
+    <section id="blog-01">
+      <img
+        src="https://camo.githubusercontent.com/a04fd5874c8ff1fd7c924cf93aa4f3a4029f0409ed6d9cf6de7f5a61a9f60015/68747470733a2f2f692e6962622e636f2f4c5359677948682f53637265656e73686f742d323032342d30362d33302d61742d31322d35312d30392d414d2e706e67"
+        alt="How my open source tool got 100 stars in 4 days"
+        class="w-full rounded-3xl shadow-md my-8"
+        loading="lazy"
+      />
+      <div>
+        <h2>What Horus does:</h2>
+        Horus is an all-in-one encompassing tool for investigations assistance, from API leveraging to compiling data. It is still a work in progress, but feel free to check out the GitHub page here. Horus has many features, ranging from IP tracking to Virustotal scans, all from your terminal!         
+      </div>
+      <div>
+        <h1> How I got Horus to over 100 stars on GitHub:</h1>
+        <br>
+        Getting to 100 stars in this short amount of time wasn't as easy as it may seem. A lot of work went into growing the project.
+        <br><br/>
+        Firstly, I began by researching advertisement methods. I came across this great tool called <a href="https://gitroom.com">Gitroom</a> that allowed me to schedule posts. I scheduled posts for here, Hashnode, and Reddit. Out of all of these platforms, Reddit was the most successful. Engagement was very high and it garnered me the most clickthroughs to my repository.
+
+        <br><br/>
+
+
+        Secondly, with this "best platform" in mind, I continued posting on Reddit, in multiple communities. Rather than posting multiple times a day and spewing spam, I created an article on a use-case of my tool and advertised it, along with the base of the project. I also searched for new communities to post in everyday to attract new eyes. 
+
+        <br><br/>
+
+        Lastly, my project grew on its own! After posting on various sites, Twitter users with decently sized followings began posting my repository, without me even having to contact them! The niche that my tool fits into (cybersecurity, OSINT, and forensics-related stuff) allowed my tool to be promoted easily by accounts that post things in that realm. 
+        </div>
+
+        <div>
+
+        <h1>What can you do to get stars?</h1>
+        <br>
+        <li>
+        Focus your project on a niche 
+        </li>
+        This allows easy promotion as previously mentioned and focuses in on a subgroup of people
+        <br><br/>
+        <li>
+        Advertise consistently 
+        </li>
+        For me, Reddit was the best for this. Don't get discouraged if you are met with some blunt comments
+        <br><br/>
+        <li>
+        Vary where you advertise
+        </li>
+        Even though Reddit was successful for me, it doesn't mean it will be the best fit for your project. Advertise in many places to maximize exposure and the possibility of others promoting your project for you.
+        <br><br/>  
+        <li>
+        Be willing to address critiques
+        </li>
+        When I first launched Horus, it was called Sentinel. The most common advice I was given was to change the name. What made me apprehensive to that idea was the way that it was said to me. Because I advertised on Reddit a lot, negativity was common, especially in this case. However, the amount of people asking me to change the name was enough to convince me to change it. Be willing to take criticism, no matter the form.
+
+
+      </div>
+    </section>
+    <section id="blog-02">
+        <img
+        src="https://camo.githubusercontent.com/a04fd5874c8ff1fd7c924cf93aa4f3a4029f0409ed6d9cf6de7f5a61a9f60015/68747470733a2f2f692e6962622e636f2f4c5359677948682f53637265656e73686f742d323032342d30362d33302d61742d31322d35312d30392d414d2e706e67"
+        alt="Tracking Snoop Dogg's $4M Crypto Wallet"
+        class="w-full rounded-3xl shadow-md my-8"
+        loading="lazy"
+      />
+      <div>
+        In order to get a record of Snoop Dogg's transaction history through Horus, I first found his Ethereum wallet address online. I found two main addresses, but chose to use this address: <br><br/> 
+        <a href="https://etherscan.io/address/0xce90a7949bb78892f159f428d0dc23a8e3584d75" style="text-decoration:underline;">0xce90a7949bb78892f159f428d0dc23a8e3584d75</a>
+      </div>
+      <div>
+
+        After gathering that information, I opened up Horus through the terminal, navigated to its Cryptotracer feature, and entered the currency (ETH) and address. <br><br/>
+
+        Here is a quick demo on what I did:
+        <img
+        src="https://uploads.gitroom.com/KOY28OSNPm.gif"
+        alt=""
+        class="w-full rounded-3xl shadow-md my-8"
+        loading="lazy"
+      />
+
+
+      </div>
+    </section>
+    <section id="blog-03">
+      <div>
+        In this basic tutorial, I will be demonstrating how to develop a flight tracking program in Python. Let's go!
+      </div>
+
+      <div>
+      <h2> How to Create a Flight Tracking Program in Python</h2> <br><br/> 
+
+      This program will fetch real-time flight data from the Aviationstack API and track aircraft using their ICAO24 identification. I'll cover everything from setting up your environment to implementing the program, as this is a beginner-friendly tutorial. The complete code is available at [Horus on GitHub](https://github.com/6abd/horus), so feel free to leave a star or contribute in other ways.
+      </div>
+      <div>
+
+      <h2>Prerequisites</h2> <br><br/> 
+
+      Before we start, ensure you have the following:
+      - **Basic Python Knowledge**: Understanding of basic Python programming concepts.
+      - **Python Itself**: Python installed on your machine.
+      - **Required Libraries**: Requests and Colorama libraries for handling API requests, parsing data, and styling console output respectively.
+      
+      </div>
+      <div>
+
+      <h2>Setting Up the Environment</h2>
+
+      <h3>>Python Installation</h3> <br><br/> 
+      Download and install Python from the <a href="https://www.python.org">official Python website</a>>(https://www.python.org/).
+
+      <h3>Installing Required Libraries</h3>
+      Install the necessary Python libraries using pip:
+      
+      <code>pip install requests colorama
+      
+
+    </div>
+### Understanding APIs
+
+#### What is an API?
+An API allows applications (like this one!) to communicate with external services/websites. In this case, we'll be using the Aviationstack and OpenSky APIs to fetch flight data.
+
+#### Flight Tracking API Options
+There are several APIs available for flight data. In this tutorial, we will use:
+- **Aviationstack API**: For real-time flight data.
+- **OpenSky Network API**: For tracking aircraft using their ICAO24 identification.
+
+#### API Key Registration
+Register on the [Aviationstack website](https://aviationstack.com/) to get your API key. OpenSky doesn't require a key for its free API.
+
+---
+
+### Fetching Flight Data
+
+We will use the `requests` library to make API calls and fetch flight data.
+
+---
+
+### Implementing the Flight Tracking Program
+
+Below are snippets of the key parts of the flight tracking program. For the complete code, refer to the [Horus GitHub repository](https://github.com/6abd/horus).
+
+#### Formatting Templates
+I have made output formatting templates using Colorama already (optimized for terminal use). Here they are for your convenience, they will be used throughout the code:
+```python
+from colorama import Fore # For text colour.
+
+# Config (Prints).
+text = (f"{Fore.WHITE}") # Change the colour of text output in the client side
+dividers = (f"{Fore.LIGHTRED_EX}") # Changes the [], | and : in the client side
+success = (f"{Fore.WHITE}[{Fore.GREEN}SUCCESS{Fore.WHITE}]") # Success output.
+successfully = (f"{Fore.WHITE}[{Fore.GREEN}SUCCESSFULLY{Fore.WHITE}]") # Successfully output.
+failed = (f"{Fore.WHITE}[{Fore.LIGHTRED_EX}FAILED{Fore.WHITE}]") # Failed output.
+prompt = (f"{Fore.WHITE}[{Fore.YELLOW}»{Fore.WHITE}]") # Prompt output.
+notice = (f"{Fore.WHITE}[{Fore.YELLOW}!{Fore.WHITE}]") # Notice output.
+question =  (f"{Fore.WHITE}[{Fore.YELLOW}?{Fore.WHITE}]") # Alert output.
+alert =  (f"{Fore.WHITE}[{Fore.LIGHTRED_EX}!{Fore.WHITE}]") # Alert output.
+exited = (f"{Fore.WHITE}[{Fore.LIGHTRED_EX}EXITED{Fore.WHITE}]") # Execited output.
+disconnected = (f"{Fore.WHITE}[{Fore.LIGHTRED_EX}DISCONNECTED{Fore.WHITE}]") # Disconnected output.
+command = (f"\n[{Fore.YELLOW}>_{Fore.WHITE}]: ") # Always asks for a command on a new line.
+```
+
+#### Determining what to filter/search by
+In order to allow the user to access the most applicable data to them, we should get input on what they would like to search by. This can be done by the following code:
+```python
+print(f'{notice} How would you like to filter flight data? (icao24, number, date, dep_iata, arr_iata or status) ')
+option = input(f'{command}').lower()
+```
+
+#### Fetching Flight Data by different methods
+The Aviationstack API allows users to filter flight data results by number. We can get that URL with requests, parse the data, and make dictionary calls for each piece of data we want. Then, we can print this in a readable way and add separators for each API search result. We need to have a different section of code for each filtering method, as some responses have different JSON structures than others. 
+
+We can filter Aviationstack API's results by the following methods:
+- **Flight Number**
+- **Date**
+- **Departure IATA**
+- **Arrival IATA**
+- **Flight Status**
+- **ICAO24** ( Aircraft specific, my personal favorite :) )
+
+
+The code for each method is shown below, with an if statement initiating each section based on input from before:
+
+#### Fetching Flight Data by Flight Number
+```python
+if option == 'number':
+    number = input(f"{question} Enter a flight number: ")
+    data = requests.get(f"http://api.aviationstack.com/v1/flights?access_key={key}&flight_number={number}").json()['data']
+    for i in range(0,len(data)):
+        print(f"Airline Name: {data[i]['airline']['name']}")
+        print(f"Flight Date: {data[i]['flight_date']}")
+        print(f"Status: {data[i]['flight_status']}")
+        print(f"Departure Airport: {data[i]['departure']['airport']}")
+        print(f"Departure Timezone: {data[i]['departure']['timezone']}")
+        print(f"Departure IATA/ICAO: {data[i]['departure']['iata']} | {data[i]['departure']['icao']}")
+        print(f"Departure Terminal/Gate: {data[i]['departure']['terminal']}{data[i]['departure']['gate']}")
+        print(f"Estimated Departure: {data[i]['departure']['estimated']}")
+        print(f"Actual Departure: {data[i]['departure']['actual']}")
+        print(f"Arrival Airport: {data[i]['arrival']['airport']}")
+        print(f"Arrival Timezone: {data[i]['arrival']['timezone']}")
+        print(f"Arrival IATA/ICAO: {data[i]['arrival']['iata']} | {data[i]['arrival']['icao']}")
+        print(f"Arrival Terminal/Gate: {data[i]['arrival']['terminal']}{data[i]['arrival']['gate']}")
+        print(f"Estimated Arrival: {data[i]['arrival']['estimated']}")
+        print(f"Actual Arrival: {data[i]['arrival']['actual']}")
+        print("-------------------------------------------------------------------")
+```
+
+#### Fetching Flight Data by Date
+```python
+if option == 'date':
+    date = input(f"{question} Enter a flight date (YYYY-MM-DD): ")
+    data = requests.get(f"http://api.aviationstack.com/v1/flights?access_key={key}&date={date}").json()['data']
+    for i in range(0,len(data)):
+        print(f"Airline Name: {data[i]['airline']['name']}")
+        print(f"Flight Date: {data[i]['flight_date']}")
+        print(f"Status: {data[i]['flight_status']}")
+        print(f"Departure Airport: {data[i]['departure']['airport']}")
+        print(f"Departure Timezone: {data[i]['departure']['timezone']}")
+        print(f"Departure IATA/ICAO: {data[i]['departure']['iata']} | {data[i]['departure']['icao']}")
+        print(f"Departure Terminal/Gate: {data[i]['departure']['terminal']}{data[i]['departure']['gate']}")
+        print(f"Estimated Departure: {data[i]['departure']['estimated']}")
+        print(f"Actual Departure: {data[i]['departure']['actual']}")
+        print(f"Arrival Airport: {data[i]['arrival']['airport']}")
+        print(f"Arrival Timezone: {data[i]['arrival']['timezone']}")
+        print(f"Arrival IATA/ICAO: {data[i]['arrival']['iata']} | {data[i]['arrival']['icao']}")
+        print(f"Arrival Terminal/Gate: {data[i]['arrival']['terminal']}{data[i]['arrival']['gate']}")
+        print(f"Estimated Arrival: {data[i]['arrival']['estimated']}")
+        print(f"Actual Arrival: {data[i]['arrival']['actual']}")
+        print("-------------------------------------------------------------------")
+```
+
+#### Fetching Data by Departure IATA
+```python
+if option == 'dep_iata':
+    dep_iata = input(f"{question} Enter a flight departure IATA: ")
+    data = requests.get(f"http://api.aviationstack.com/v1/flights?access_key={key}&dep_iata={dep_iata}").json()['data']
+    for i in range(0,len(data)):
+        print(f"Airline Name: {data[i]['airline']['name']}")
+        print(f"Flight Date: {data[i]['flight_date']}")
+        print(f"Status: {data[i]['flight_status']}")
+        print(f"Departure Airport: {data[i]['departure']['airport']}")
+        print(f"Departure Timezone: {data[i]['departure']['timezone']}")
+        print(f"Departure IATA/ICAO: {data[i]['departure']['iata']} | {data[i]['departure']['icao']}")
+        print(f"Departure Terminal/Gate: {data[i]['departure']['terminal']}{data[i]['departure']['gate']}")
+        print(f"Estimated Departure: {data[i]['departure']['estimated']}")
+        print(f"Actual Departure: {data[i]['departure']['actual']}")
+        print(f"Arrival Airport: {data[i]['arrival']['airport']}")
+        print(f"Arrival Timezone: {data[i]['arrival']['timezone']}")
+        print(f"Arrival IATA/ICAO: {data[i]['arrival']['iata']} | {data[i]['arrival']['icao']}")
+        print(f"Arrival Terminal/Gate: {data[i]['arrival']['terminal']}{data[i]['arrival']['gate']}")
+        print(f"Estimated Arrival: {data[i]['arrival']['estimated']}")
+        print(f"Actual Arrival: {data[i]['arrival']['actual']}")
+        print("-------------------------------------------------------------------")
+```
+
+#### Fetching Data by Arrival IATA
+```python
+if option == 'arr_iata':
+    arr_iata = input(f"{question} Enter a flight arrival IATA: ")
+    data = requests.get(f"http://api.aviationstack.com/v1/flights?access_key={key}&arr_iata={arr_iata}").json()['data']
+    for i in range(0,len(data)):
+        print(f"Airline Name: {data[i]['airline']['name']}")
+        print(f"Flight Date: {data[i]['flight_date']}")
+        print(f"Status: {data[i]['flight_status']}")
+        print(f"Departure Airport: {data[i]['departure']['airport']}")
+        print(f"Departure Timezone: {data[i]['departure']['timezone']}")
+        print(f"Departure IATA/ICAO: {data[i]['departure']['iata']} | {data[i]['departure']['icao']}")
+        print(f"Departure Terminal/Gate: {data[i]['departure']['terminal']}{data[i]['departure']['gate']}")
+        print(f"Estimated Departure: {data[i]['departure']['estimated']}")
+        print(f"Actual Departure: {data[i]['departure']['actual']}")
+        print(f"Arrival Airport: {data[i]['arrival']['airport']}")
+        print(f"Arrival Timezone: {data[i]['arrival']['timezone']}")
+        print(f"Arrival IATA/ICAO: {data[i]['arrival']['iata']} | {data[i]['arrival']['icao']}")
+        print(f"Arrival Terminal/Gate: {data[i]['arrival']['terminal']}{data[i]['arrival']['gate']}")
+        print(f"Estimated Arrival: {data[i]['arrival']['estimated']}")
+        print(f"Actual Arrival: {data[i]['arrival']['actual']}")
+        print("-------------------------------------------------------------------")
+```
+
+#### Fetching Flight Data by Flight Status
+```python
+if option == 'status':
+    status = input(f"{question} Enter a flight status (scheduled, active, landed, cancelled, incident, diverted): ")
+    data = requests.get(f"http://api.aviationstack.com/v1/flights?access_key={key}&status={status}").json()['data']
+    for i in range(0,len(data)):
+        print(f"Airline Name: {data[i]['airline']['name']}")
+        print(f"Flight Date: {data[i]['flight_date']}")
+        print(f"Status: {data[i]['flight_status']}")
+        print(f"Departure Airport: {data[i]['departure']['airport']}")
+        print(f"Departure Timezone: {data[i]['departure']['timezone']}")
+        print(f"Departure IATA/ICAO: {data[i]['departure']['iata']} | {data[i]['departure']['icao']}")
+        print(f"Departure Terminal/Gate: {data[i]['departure']['terminal']}{data[i]['departure']['gate']}")
+        print(f"Estimated Departure: {data[i]['departure']['estimated']}")
+        print(f"Actual Departure: {data[i]['departure']['actual']}")
+        print(f"Arrival Airport: {data[i]['arrival']['airport']}")
+        print(f"Arrival Timezone: {data[i]['arrival']['timezone']}")
+        print(f"Arrival IATA/ICAO: {data[i]['arrival']['iata']} | {data[i]['arrival']['icao']}")
+        print(f"Arrival Terminal/Gate: {data[i]['arrival']['terminal']}{data[i]['arrival']['gate']}")
+        print(f"Estimated Arrival: {data[i]['arrival']['estimated']}")
+        print(f"Actual Arrival: {data[i]['arrival']['actual']}")
+        print("-------------------------------------------------------------------")
+```
+
+#### Fetching Flight Data by ICAO24
+This method of search is quite different, as we are using the Opensky API. There is also less available data, as it relates to the specified aircraft.
+```python
+if option == 'icao24':
+    icao24 = input(f"{question} Enter a plane icao24: ")
+    begin = input(f"{question} Enter a begin Unix timestamp for the flights interval: ")
+    end = input(f"{question} Enter an end Unix timestamp for the flights interval: ")
+    data = requests.get(f"https://opensky-network.org/api/flights/aircraft?icao24={icao24}&begin={begin}&end={end}").json()
+    for i in range(0,len(data)):
+        print(f"Aircraft Callsign: {data[i]['callsign']}")
+        print(f"Departure Airport (Estimated): {data[i]['estDepartureAirport']}")
+        print(f"Arrival Airport (Estimated): {data[i]['estArrivalAirport']}")
+        print(f"Arrival Airport (Estimated): {data[i]['estArrivalAirport']}")
+        print(f"First Seen: {data[i]['firstSeen']}")
+        print(f"Last Seen: {data[i]['lastSeen']}")
+        print("-------------------------------------------------------------------")
+```
+
+---
+
+### Conclusion
+
+This feature is a part of my OSINT / digital forensics project, Horus. For the complete code to this project visit the [Horus GitHub repository](https://github.com/6abd/horus). You can support Horus by leaving a star!
+
+---
+
+### References and Resources
+
+- [Aviationstack API Documentation](https://aviationstack.com/documentation)
+- [OpenSky Network API Documentation](https://opensky-network.org/apidoc/index.html)
+- [Python Requests Library Documentation](https://docs.python-requests.org/en/latest/)
+- [Colorama Library Documentation](https://pypi.org/project/colorama/)
+
+    </section>
+    </div>
+      
+    <script async type="module" src="./script.js" defer></script>
+    <style>
+      #projects:not([gone-back]) > a *,
+      #projects:not([gone-back]) > div {
+        opacity: 0;
+      }
+
+      #projects > a {
+        i {
+          transition: margin 0.1s;
+        }
+
+        &:hover {
+          i {
+            margin-left: 5px;
+          }
+        }
+      }
+    </style>
+  </body>
+</html>
